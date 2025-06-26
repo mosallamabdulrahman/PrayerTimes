@@ -30,11 +30,11 @@ export default function MainContent() {
 	];
 
 	const prayersArray = [
-		{ key: "Fajr", displayName: "الفجر", image: "/Imgs/Fajr.webp" },
-		{ key: "Dhuhr", displayName: "الظهر", image: "/Imgs/Dhuhr.png" },
-		{ key: "Asr", displayName: "العصر", image: "/Imgs/Asr.jfif" },
-		{ key: "Sunset", displayName: "المغرب", image: "/Imgs/Sunset.jpg" },
-		{ key: "Isha", displayName: "العشاء", image: "/Imgs/Isha.webp" },
+		{ key: "Fajr", displayName: "الفجر", image: "../Imgs/Fajr.webp" },
+		{ key: "Dhuhr", displayName: "الظهر", image: "../Imgs/Dhuhr.png" },
+		{ key: "Asr", displayName: "العصر", image: "../Imgs/Asr.jfif" },
+		{ key: "Sunset", displayName: "المغرب", image: "../Imgs/Sunset.jpg" },
+		{ key: "Isha", displayName: "العشاء", image: "../Imgs/Isha.webp" },
 	];
 
 	useEffect(() => {
