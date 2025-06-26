@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: white;
+  font-family: 'Tajawal', sans-serif;
+  direction: rtl;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 5px 0;
+}
+
+.container {
+  padding: 20px;
+}
+
+.MuiInputLabel-root {
+  color: white !important;
+}
+
+.MuiSelect-root, .MuiInputBase-root {
+  color: white !important;
+}
+
+.prayer-card {
+  background: #1e1e1e;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 200px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.prayer-card:hover {
+  transform: scale(1.05);
+}
+
+.prayer-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.prayer-card h2 {
+  font-size: 1.3rem;
+  margin: 10px 0;
+}
+
+.prayer-card .time {
+  font-size: 1.2rem;
+  color: #bbb;
+}
+
+.MuiFormControl-root {
+  background: #1e1e1e;
+  border-radius: 8px;
+  padding: 5px;
+}
